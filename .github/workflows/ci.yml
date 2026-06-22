@@ -28,7 +28,7 @@ jobs:
 
       - name: Publish Test Results to Job Summary
         run: |
-          python scripts/publish_results.py
+          python appiumtest/publish_results.py
 
       - name: Upload Selenium E2E Test Report
         uses: actions/upload-artifact@v4
